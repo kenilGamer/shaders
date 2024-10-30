@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.exo-2 {
+  font-family: "Exo 2";
+}
+
+.work-sans {
+  font-family: "Work Sans",sans-serif;
+  /* font-optical-sizing: 110; */
+  font-weight: 700;
+}

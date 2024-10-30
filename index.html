@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vite-three-project</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
+  </head>
+  <body class="overflow-x-hidden">
+    <div class="w-full">
+      <nav
+        class="fixed top-0 left-0 w-full py-5 px-10 z-50 flex justify-between items-center"
+      >
+        <h1 class="text-2xl font-bold">deveb.com</h1>
+        <div class="h-px flex gap-10 items-center">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+      <div class="landing w-full  h-[100vh] font-bold sticky top-0 left-0">
+        <div
+          class="rh-screen w-full  z-20 work-sans  "
+        >
+          <h1 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-7xl tracking-tighter text-nowrap">Design.Develop.Deploy</h1>
+          <p class="absolute  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl opacity-0">A creative agency with solid expertise
+            in design & web development.</p>
+            
+            <canvas
+            class=" pointer-events-none z-[-1] "
+            id="draw"
+            ></canvas>
+          </div>
+      </div>
+      <div class="content w-full h-[200vh]"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
