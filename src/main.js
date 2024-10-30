@@ -36,7 +36,7 @@ const lt = gsap.timeline({scrollTrigger: {
   start: 'top top',
   end: 'bottom center',
   scrub: 5,
-  markers: true
+  // markers: true
 }})
 lt.to(scene.position, {
   y: 2.5,
